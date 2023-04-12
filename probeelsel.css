@@ -1,0 +1,706 @@
+*{
+    margin: 0; 
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    height: 800vh;
+    text-align: center;
+ 
+}
+      
+.top-page{
+    display: inline-block;
+    text-align: center;
+    
+    
+    }
+.box {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding-bottom: -20;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: -6;
+    background-color: black;
+}
+
+.box-placeholder {
+    position: relative;
+    height: 600vh; /*bestimmt den widerstand*/
+    background: transparent;
+    font-size: 30px;
+    color: black;
+    padding-left: 2em;
+    box-sizing: content-box;
+    width: 100vw;
+    
+}
+
+.title{ 
+    position: absolute;
+    transform: translate(-50% -50%);
+    text-align: center;
+        box-sizing: content-box;
+        font-size: 6em;
+        color: #fff;
+      
+}
+.inner-text {
+    position: absolute;
+background-color: white;
+    width: 20vw;
+    font-size: 16px;
+    padding: 20px;
+    margin: 20px;
+    max-width: 20vw;
+    border-radius: 20px;
+}
+.inner-text1 {
+    position: absolute;
+background-color: white;
+    width: 20vw;
+    font-size: 16px;
+    padding: 20px;
+    margin: 20px;
+    max-width: 20vw;
+    border-radius: 20px;
+}
+
+
+.inner-image{
+    position: absolute;
+  
+    right: 10vw;
+    
+}
+#map{
+    position: absolute;
+    height: 37vw;
+    max-width: 50vw;
+    width: 50vw;
+    background-repeat: no-repeat;
+    right: 10vw;
+    background-size: 100%;
+}
+.inner-image1{
+    position: absolute;
+    height: 10%;
+    width: 50vw;
+    background-image: url(beeldmateriaal/trafficjam.jpg);
+    right: 10vw;
+   
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+ 
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+}
+.logo{
+    height: 100px;   
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 12px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff; 
+    text-decoration: none;
+    font-size: 18px;
+        
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: purple;
+    display: block;
+    margin: auto;
+}
+.nav-links ul li:hover::after{ 
+content: '';
+    width: 100%;
+    transform: 0,5s;
+
+}
+.text-box{
+   
+    width: 100%;
+    color: #fff;
+    position: relative;
+    
+    
+    transform: translate(-50% -50%);
+    text-align: center;
+    margin-top: 35px;
+}
+.text-box h1{
+    font-size: 4em;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.text-box p{
+    font-size: 2em;
+    padding-top: 10vh;
+    
+    
+}
+
+
+
+.title{ 
+  
+   
+        text-align: center;
+            box-sizing: content-box;
+        
+            color: #fff;
+          
+    
+    padding-top: 100px;
+    font-size: 2em;
+    position: relative;
+}
+
+.column1 {
+    
+    width: 25vw;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin: 20px;
+    display: inline-block;
+    position: relative;
+  }
+  
+  /* Clear floats after the columns */
+  .row1:after {
+    content: "";
+    display: table;
+    
+    clear: both;
+    color: aliceblue;
+  }
+.column1 img{
+    height: 30vh;
+
+}
+.col1 {
+    display: inline-block;
+    vertical-align: top;
+    width: 30vw;
+    margin: 7vw;
+ max-width: 900px;
+ margin-right: 70vw;
+    color: #fff;
+    text-align: left;
+ 
+  }
+.col1 img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+  
+
+  .row1 {
+    margin: 20px;
+    content: "";
+    display: table;
+    clear: both;
+    display: inline-block;
+    width: 100vw;
+}
+
+#header1 {
+    position: fixed;
+    margin: 5px;
+    height: 80px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#map1{
+    position: absolute;
+    height: 20vw;
+    
+    width: 40vw;
+    background-repeat: no-repeat;
+    right: 10vw;
+    background-size: 100%;
+}
+.rowlast{
+    position: absolute;
+    height: 60vh;
+    width: 90vw;
+}
+.columnlast{
+    display: inline-block;
+    width: 30%;
+    min-width: 300px;
+    height: 45vh;
+
+    margin: 5px;
+    padding: 5px;
+    background-color: rgba(240, 248, 255, 0.933);
+    vertical-align: top;
+}
+.columnlast h1{
+    font-size: 1.4em;
+}
+.imglast1{
+    padding-top: 50%;
+    max-height: 20vh;
+    background-image: url(beeldmateriaal/noun-house-1745674.svg);
+    background-repeat: no-repeat;
+    margin-left: 25%;
+}
+.imglast2{
+    padding-top: 50%;
+    max-height: 20vh;
+    background-image: url(beeldmateriaal/noun-euro-2365000.svg);
+    background-repeat: no-repeat;
+    margin-left: 25%;
+}
+.imglast3{
+    padding-top: 50%;
+    max-height: 20vh;
+    margin-left: 25%;
+    
+    background-image: url(beeldmateriaal/noun-grave-200200.svg);
+    background-repeat: no-repeat;
+}
+
+
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+@media only screen and (max-width: 550px) {
+    body{
+        overflow-x:hidden;
+        overflow-y:hidden;
+    }
+    
+    .rowlast{
+        position: absolute;
+        height: 60vh;
+        width: 90vw;
+        margin-top: -100vh;
+    }
+    .title{
+        font-size: 0.8em;
+        padding-top: 88px;
+      
+        
+    }
+    .col1 {
+        display: inline-block;
+        vertical-align: top;
+        width: 77vw;
+        margin: 7vw;
+     max-width: 900px;
+     margin-right: 70vw;
+        color: #fff;
+        text-align: left;
+     
+      }
+ .box-placeholder{
+    padding-left: 0em;
+ 
+
+    
+ }
+ .inner-text{
+    position: relative;
+    background-color: aliceblue;
+    width: 230px;
+    font-size: 15px;
+    padding: 20px;
+    margin-right: 10px;
+    margin-top: -200px;
+    max-width: 100vw;
+
+ }
+ .inner-text1{
+    position: relative;
+    background-color: aliceblue;
+    width: 230px;
+    font-size: 15px;
+    padding: 20px;
+    margin-right: 10px;
+    margin-top: -72vh;
+    max-width: 100vw;
+
+ }
+ .inner-image1{
+    position: relative;
+    height: 10%;
+    width: 80vw;
+    background-image: url(beeldmateriaal/trafficjam.jpg);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 10px;
+    margin-top: -24vh;
+   
+}
+.text-box h1{
+    font-size: 3em;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.text-box p{
+    font-size: 1em;
+    padding-top: 10vh;
+    
+    
+}
+#map {
+    position: relative;
+    height: 72vw;
+    max-width: 124vw;
+    width: 109vw;
+    background-repeat: no-repeat;
+    margin-right: -40vw;
+    background-size: 100%;
+    margin-top: -22vh;
+}
+}
+@media only screen and (max-width: 400px) {
+    body{
+        overflow-x:hidden;
+        overflow-y:hidden;
+    }
+    .rowlast{
+        position: absolute;
+        height: 60vh;
+        width: 90vw;
+        margin-top: -14vh;
+    }
+    .columnlast {
+        display: inline-block;
+        width: 30%;
+        min-width: 300px;
+        height: 40vh;
+        margin: 5px;
+        padding: 5px;
+        background-color: rgba(240, 248, 255, 0.933);
+        vertical-align: top;
+    }
+    .title{
+        font-size: 0.8em;
+      
+        
+    }
+ .box-placeholder{
+    padding-left: 0em;
+ 
+
+    
+ }
+ .inner-text{
+    position: relative;
+    background-color: aliceblue;
+    width: 230px;
+    font-size: 15px;
+    padding: 20px;
+    margin-right: 10px;
+    margin-top: -200px;
+    max-width: 100vw;
+
+ }
+ .inner-text1{
+    position: relative;
+    background-color: aliceblue;
+    width: 230px;
+    font-size: 15px;
+    padding: 20px;
+    margin-right: 10px;
+    margin-top: -72vh;
+    max-width: 100vw;
+
+ }
+ .inner-image1{
+    position: relative;
+    height: 10%;
+    width: 80vw;
+    background-image: url(beeldmateriaal/trafficjam.jpg);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 10px;
+    margin-top: -33vh;
+   
+}
+.text-box h1{
+    font-size: 3em;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.text-box p{
+    font-size: 1em;
+    padding-top: 10vh;
+    
+    
+}
+#map {
+    position: relative;
+    height: 65vw;
+    max-width: 132vw;
+    width: 113vw;
+    background-repeat: no-repeat;
+    margin-right: -40vw;
+    background-size: 100%;
+    margin-top: -34vh;
+}
+}
+@media only screen and (max-height: 480px){
+    .title{
+        font-size: 0.2em;
+        
+    }
+    .rowlast {
+        position: absolute;
+        height: 60vh;
+        width: 90vw;
+        margin-top: 37vh;
+    }
+    .columnlast {
+        display: inline-block;
+        width: 30%;
+        min-width: 300px;
+        height: 70vh;
+        margin: 5px;
+        padding: 5px;
+        background-color: rgba(240, 248, 255, 0.933);
+        vertical-align: top;
+    }
+    .box-placeholder{
+    padding-left: 0em;
+    
+    
+    
+    }
+    .col1 {
+        display: inline-block;
+        vertical-align: top;
+        width: 77vw;
+        margin: 7vw;
+     max-width: 900px;
+     margin-right: 70vw;
+        color: #fff;
+        text-align: left;
+     
+      }
+    .inner-text{
+    position: absolute;
+    background-color: aliceblue;
+    width: 230px;
+    font-size: 15px;
+    padding: 20px;
+    margin-right: 10px;
+    margin: 20px;
+    max-width: 100vw;
+    
+    
+    }
+    .inner-text1{
+    position: absolute;
+    background-color: aliceblue;
+    width: 230px;
+    font-size: 15px;
+    padding: 20px;
+    margin-right: 10px;
+    margin: 20px;
+    max-width: 100vw;
+    
+    
+    }
+    .inner-image1 {
+        position: relative;
+        height: 20%;
+        width: 47vw;
+        background-image: url(beeldmateriaal/trafficjam.jpg);
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-left: 53vw;
+        margin-top: -83vh;
+    }
+    #map{
+        position: absolute;
+        height: 39vw;
+        max-width: 50vw;
+        width: 50vw;
+        background-repeat: no-repeat;
+        right: 10vw;
+        background-size: 100%;
+    }
+    .title{ 
+        padding-top: 100px;
+        font-size: 1em;
+        position: relative;
+    }
+  
+    }
+
+@media only screen and (min-width: 650px){
+    .inner-image1 {
+        position: absolute;
+        height: 39vw;
+        width: 40vw;
+        background-image: url(beeldmateriaal/trafficjam.jpg);
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-left: 50px;
+        margin-top: 0vh;
+    }
+    
+  
+.title {
+    padding-top: 54px;
+    font-size: 1em;
+    position: relative;
+}
+#map {
+    position: absolute;
+    height: 39vw;
+    max-width: 50vw;
+    width: 50vw;
+    background-repeat: no-repeat;
+    right: 3vw;
+    background-size: 100%;
+}
+}
+@media only screen and (min-height: 800px){
+    .rowlast {
+        position: absolute;
+        height: 60vh;
+        width: 90vw;
+        margin-top: -70vh;
+    }
+
+}
+@media only screen and (min-height: 1000px){
+    .title{ 
+        padding-top: 100px;
+        font-size: 1em;
+        position: relative;
+    }
+    .inner-text{
+        position: absolute;
+        background-color: aliceblue;
+        width: 350px;
+        font-size: 19px;
+        padding: 20px;
+        margin-right: 10px;
+        margin: 20px;
+        max-width: 100vw;
+        margin-top: -13vh;
+        } 
+        .inner-text1{
+            position: absolute;
+            background-color: aliceblue;
+            width: 350px;
+            font-size: 19px;
+            padding: 20px;
+            margin-right: 10px;
+            margin: 20px;
+            max-width: 100vw;
+            margin-top: -45vh;
+            } 
+        #map{
+            position: absolute;
+            height: 50vw;
+            max-width: 100vw;
+            width: 350vw;
+            background-repeat: no-repeat;
+            right: 10vw;
+            background-size: 100%;
+            margin-top: -28vh;
+        }
+        .inner-image1{
+            position: absolute;
+            height: 10%;
+            width: 100vw;
+            background-image: url(beeldmateriaal/trafficjam.jpg);
+            right: 10vw;
+           margin-top: -3vh;
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        .col1 {
+            display: inline-block;
+            vertical-align: top;
+            width: 44vw;
+            margin: 7vw;
+            max-width: 900px;
+            margin-right: 70vw;
+            color: #fff;
+            text-align: left;
+        }
+}
+@media only screen and (max-height: 300px){
+    body{
+        overflow-x:hidden;
+        overflow-y:hidden;
+    }
+    #map {
+        position: absolute;
+        height: 39vw;
+        max-width: 51vw;
+        width: 60vw;
+        background-repeat: no-repeat;
+        right: 3vw;
+        background-size: 100%;
+    }
+    .rowlast {
+        position: absolute;
+        height: 60vh;
+        width: 90vw;
+        margin-top: 84vh;
+    }
+    .columnlast {
+        display: inline-block;
+        width: 30%;
+        min-width: 300px;
+        height: 93vh;
+        margin: 5px;
+        padding: 5px;
+        background-color: rgba(240, 248, 255, 0.933);
+        vertical-align: top;
+    }
+}
+

@@ -1,0 +1,253 @@
+*{
+    margin: 0; 
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+body {
+    min-width: fit-content;
+    max-width: 100%;
+}
+body, html{
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #fefefe;
+    min-width: fit-content;
+    margin:0;
+    padding:0;
+}
+.top-page{
+    display: inline-block;
+    text-align: center;
+    
+    
+    }
+    .menu-page{
+        display: inline-block;
+        text-align: center;
+        
+        
+        }
+
+.text-box{
+   
+    width: 100%;
+    color: #fff;
+    position: relative;
+    
+    
+ 
+    text-align: center;
+    margin-top: 35px;
+    padding-bottom: 4vh;
+}
+.text-box h1{
+    font-size: 4em;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.text-box p{
+    font-size: 2em;
+   
+    
+    
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+}
+.logo{
+    height: 100px;
+       
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 12px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff; 
+    text-decoration: none;
+    font-size: 18px;
+        
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: purple;
+    display: block;
+    margin: auto;
+}
+.nav-links ul li:hover::after{ 
+content: '';
+    width: 100%;
+    transform: 0,5s;
+
+}
+.col1 {
+    display: inline-block;
+    vertical-align: top;
+    width: 40vw;
+    padding: 50px;
+    color: #fff;
+    text-align: left;
+ 
+  }
+.col1 img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+  
+
+  .row1 {
+    
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.classpicture1 {
+   
+ 
+    position: relative;;
+    border-radius: 10px;
+    font-size: 12px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    background-image: url(beeldmateriaal/hurricane-harvey-3624911_1920.jpg);
+}
+.classpicture2 {
+   
+    width: 25vw;
+    height: 35vh;
+    position: relative;;
+    border-radius: 10px;
+    font-size: 12px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-position: center;
+    float: right;
+    background-size: cover;
+    transition: transform 0.5s;
+    background-image: url(beeldmateriaal/hurricane-harvey-3624911_1920.jpg);
+}
+.text3 {
+    text-align: left;
+    position: relative;
+    color: white;
+    font-size: 1.3em;
+    width: 50vw;
+    left: 32vw;
+}
+.text4 {
+   
+    text-align: left;
+    position: relative;
+    color: white;
+    font-size: 1em;
+    right: 50vw;
+
+   
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    
+
+    font-weight: bold;
+}
+.column {
+    
+    display: inline-block;
+    min-height: 20vh;
+    width: 70vw;
+    padding: 2vh;
+    margin: 2vh;
+vertical-align: top;
+  }
+  
+
+  .row {
+    margin-top: 10vh;
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .header {
+    z-index: 1;
+    min-height: 100vh;
+    background-size: cover;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.329),rgba(0, 0, 0, 0.312)),url(beeldmateriaal/hurricane-harvey-3624911_1920.jpg);
+    
+    position: relative;
+}
+.header1 {
+    z-index: 1;
+    min-height: 100vh;
+    background-size: cover;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.329),rgba(0, 0, 0, 0.312)),url(beeldmateriaal/new-orleans-81669_1920.jpg);
+    
+    position: relative;
+}
+.header3 {
+    z-index: 1;
+    min-height: 100vh;
+    background-size: cover;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.329),rgba(0, 0, 0, 0.312)),url(beeldmateriaal/nwport.jpg);
+    
+    position: relative;
+}
+.column img{
+   max-height: 60vh;
+    max-width: 70vw;
+}
+.column p{
+    max-width: 100vw;
+}
+@media only screen and (max-width: 550px){
+    .col1 {
+        display: inline-block;
+        vertical-align: top;
+        width: 90vw;
+        padding: 50px;
+        color: #fff;
+        text-align: left;
+     
+      }
+      .column p{
+        font-size: 11px;
+      }
+      .column {
+        
+        display: inline-block;
+        min-height: 20vh;
+        max-width: 100vw;
+        padding: 2vh;
+        margin: 2vh;
+    vertical-align: top;
+      }
+      .column img{
+        max-height: 80vh;
+         max-width: 100vw;
+     }
+}
